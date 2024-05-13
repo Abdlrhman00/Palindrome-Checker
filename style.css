@@ -1,0 +1,53 @@
+/* Body styles */
+body {
+    background-color: #f2f2f2; /* Light gray background color */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Make sure the content is centered vertically */
+}
+
+h1 {
+    font-size: 28px; /* Increase font size */
+    color: #333; /* Dark gray text color */
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+/* Style for the text input */
+#text-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 300px;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+/* Style for the check button */
+#check-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 0px; /* Add margin at the bottom to separate from the input */
+}
+
+/* Hover effect for the check button */
+#check-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the result container */
+
+#result {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #333;
+}
